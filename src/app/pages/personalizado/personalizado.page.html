@@ -1,0 +1,29 @@
+<ion-header [translucent]="true">
+  <ion-toolbar>
+    <ion-title>Personalizado</ion-title>
+  </ion-toolbar>
+</ion-header>
+
+<ion-content [fullscreen]="true">
+  <ion-header collapse="condense">
+    <ion-toolbar>
+      <ion-title size="large">Personalizado</ion-title>
+    </ion-toolbar>
+  </ion-header>
+  <ion-toolbar>
+    <ion-buttons slot="secondary">
+      <ion-button fill="solid">
+        <ion-icon slot="start" name="person-circle"></ion-icon>
+        Contactame
+      </ion-button>
+    </ion-buttons>
+    <ion-buttons slot="primary">
+      <ion-button fill="solid">
+        Ayuda
+        <ion-icon slot="end" name="help-circle"></ion-icon>
+      </ion-button>
+    </ion-buttons>
+    <ion-title>Datos personalizados</ion-title>
+  </ion-toolbar>
+  <ion-button expand="full" routerLink="/inicio" Color="tertiary"> VOLVER AL INICIO</ion-button>
+</ion-content>
