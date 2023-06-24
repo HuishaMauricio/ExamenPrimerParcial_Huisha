@@ -6,10 +6,12 @@ import { DataService } from '../../services/data.service';
 //crear una interface para definir propiedades que el componente lista va
 //a tener
 interface Componente {
+redirectTo: string|any[]|null|undefined;
 icon: string;
 name: string;
-redirectTo: string;
+
 }
+
 @Component({
 selector: 'app-inicio',
 templateUrl: './inicio.page.html',
@@ -26,4 +28,5 @@ this.componentes = this.dataService.getMenuOpts();
 mostrarMenu() {
 this.menuCtrl.open('first');
 }
+
 }

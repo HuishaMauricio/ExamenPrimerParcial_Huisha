@@ -23,6 +23,14 @@ pathMatch: 'full'
     path: 'input',
     loadChildren: () => import('./pages/input/input.module').then( m => m.InputPageModule)
   },
+  {
+    path: 'input',
+    loadChildren: () => import('./pages/input/input.module').then( m => m.InputPageModule)
+  },
+  {
+    path: 'input-examen',
+    loadChildren: () => import('./pages/input-examen/input-examen.module').then( m => m.InputExamenPageModule)
+  },
 ];
 @NgModule({
 imports: [

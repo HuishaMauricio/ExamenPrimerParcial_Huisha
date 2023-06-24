@@ -18,6 +18,11 @@
     "icon": "logo-ionic",
     "name": "Input",
     "redirectTo": "/input"
+    },
+    {
+    "icon": "hammer",
+    "name": "Input - forms",
+    "redirectTo": "/input-examen"
     }
     ]
     
